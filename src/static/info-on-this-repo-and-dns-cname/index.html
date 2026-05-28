@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About This Repo and DNS Name</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+  <div class="container pt-4">
+    <div class="h2 pb-2">
+      <span class="bg-black text-white px-3">moz://a</span>
+      SSL Configuration Generator
+    </div>
+
+    <h1 class="h4 mt-4">About This Repository and DNS Name</h1>
+
+    <p>SSL Config Generator was a tool that Mozilla's security team built and maintained from 2014 to 2026. In 2026 the tool and codebase was handed over to an open source community working group.</p>
+
+    <p>Over the time that the tool was hosted by Mozilla, many websites and tools out on the internet have been created which reference the tool through links either to <code>ssl-config.mozilla.org</code> or to specific URLs of the tool which render an SSL config for the user (also on <code>ssl-config.mozilla.org</code>).</p>
+
+    <p>In order to prevent all of these links on websites and in other tools from breaking when the tool was transitioned away from Mozilla, we're keeping the <code>ssl-config.mozilla.org</code> DNS CNAME and the Mozilla GitHub repo with GitHub Pages up as a redirect to the new site. If the DNS name or the GitHub repo get deleted, then all of those links in other tools and sites will break.</p>
+
+    <h2 class="h5 mt-4">What Needs to Be Retained</h2>
+
+    <p>Specifically, there are two things that need to be retained:</p>
+
+    <ol>
+      <li class="mb-2">The archived <a href="https://github.com/mozilla/ssl-config-generator">https://github.com/mozilla/ssl-config-generator</a> GitHub repository: This contains a single GitHub Pages page which redirects users to the new site.</li>
+      <li class="mb-2">The <code>ssl-config.mozilla.org</code> DNS CNAME which resolves to <code>mozilla.github.io.</code>: This causes those links to resolve to GitHub Pages so that the user fetches the redirect.</li>
+    </ol>
+
+    <p>If you have any questions about this setup, feel free to contact the open source community working group that maintains the new site using the contact form at <a href="https://tlsref.org/">https://tlsref.org/</a>.</p>
+  </div>
+</body>
+</html>
