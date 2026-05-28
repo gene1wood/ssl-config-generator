@@ -1,6 +1,6 @@
 # Mozilla SSL Configuration Generator
 
-The Mozilla SSL Configuration Generator has moved to a community working group managed project outside of Mozilla. It
+The Mozilla SSL Configuration Generator has moved to a community working group managed project outside of Mozilla. The source code
 can be found at https://github.com/tlsref/configurator
 
 This repository is now archived but continues to serve a GitHub pages site that redirects users from https://ssl-config.mozilla.org/
